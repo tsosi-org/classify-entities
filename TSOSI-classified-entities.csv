@@ -1,0 +1,72 @@
+name,short_name,country,ror_id,wiki_id,ror_types,TSOSI_sub_class,TSOSI_class,coments
+Agence Bibliographique de l'Enseignement Supérieur,,FR,027xymc69,Q2826570,archive,,false,more than a library consort
+Amigos Library Services,,US,018gpkq23,,"funder, nonprofit",,lib_consort,
+Association of Southeastern Research Libraries,,US,,Q76609335,,,lib_consort,
+Bavarian State Library,,DE,031h71w90,Q256507,archive,,lib_consort,more than a library consort
+Bibliothèque Interuniversitaire de la Communauté française de Belgique,,BE,,Q76612327,,,lib_consort,
+Bibsam Consortium,,SE,,Q55605397,,,lib_consort,
+Boston Library Consortium,,US,,Q76609344,,,lib_consort,
+California Digital Library,,US,03yrm5c26,Q5020447,archive,,lib_consort,
+Canadian Research Knowledge Network,,CA,00s5kmw74,Q76609347,other,,lib_consort,
+Centre pour la Communication Scientifique Directe,,FR,00680hx61,Q2945988,facility,,false,no library coordination
+Colorado Alliance of Research Libraries,,US,,Q5148699,,,lib_consort,
+Committee on Institutional Cooperation,,US,02ntfsb56,Q5153069,education,,false,it is a consortium of institution
+Consortium of Swiss Academic Libraries,,CH,01jmqcy63,Q76609352,other,,lib_consort,
+Council of Atlantic University Libraries,,CA,,Q76612380,,,lib_consort,
+Council of Australasian University Librarians,,AU,00aa7w613,Q5176360,other,,lib_consort,
+Couperin,,FR,035c9qf67,Q2994760,nonprofit,,lib_consort,
+Dutch University Libraries and National Library,,,,Q2210863,,,lib_consort,
+Elektron VZW,,BE,,Q27991319,,,lib_consort,
+FinELib,,FI,,Q76612408,,,lib_consort,
+Florida Virtual Campus,,US,,Q117259305,,,false,more than a library consort
+Florida Virtual Campus Library Services,,US,,Q76612409,,,lib_consort,
+Friedrich-Althoff-Konsortium e.V.,,DE,,Q76612411,,,lib_consort,
+Greater Western Library Alliance,,US,035280t21,Q16982607,archive,,lib_consort,
+HeBIS-Konsortium,,DE,,Q76612424,,,lib_consort,
+Hellenic Academic Libraries Link,,GR,,Q76612426,,,lib_consort,
+Institute of Physics,,GB,04whb3988,Q2915886,"facility, funder",,false,
+Irish Research eLibrary,,IE,05c347015,Q76612439,"funder, other",,lib_consort,
+Jisc,,GB,01rv9gx86,Q6269240,"funder, nonprofit",,false,more than a library consort
+Knowledge Unlatched,,DE,00xgd4p18,Q16989244,company,,false,services outside libraries
+Konsortium Baden-Württemberg,,DE,,Q76612447,,,lib_consort,
+Lehmanns (Luxembourgy),,,,,,,false,too small
+Lyrasis,,US,026tem613,Q6709869,"archive, funder",,lib_consort,
+Midwest Collaborative for Library Services,,US,,Q76612467,,,lib_consort,
+NERL Consortium,,US,0435xdk58,Q30289358,other,,lib_consort,
+Niedersachsen Konsortium,,DE,,Q76612496,,,lib_consort,
+Ohio Library and Information Network,,US,05bqcch62,Q7080725,archive,,lib_consort,
+Ontario Council of University Libraries,,CA,28215596,Q30289390,education,,lib_consort,
+Open Book Collective,,GB,043be3q74,Q115680383,nonprofit,,false,services outside libraries
+Orbis Cascade Alliance,,US,,Q7100024,,,lib_consort,
+Partnership Among South Carolina Academic Libraries,,US,,Q76612516,,,lib_consort,short name : PASCAL
+Pennsylvania Academic Library Consortium,,US,02m6s1q30,Q30289412,archive,,lib_consort,
+Royal Danish Library,,DK,03vvy0v27,Q867885,archive,,false,no library coordination
+Sachsen Konsortium,,DE,,Q134580046,,,lib_consort,
+Sikt – Norwegian Agency for Shared Services in Education and Research,,NO,03zee5r16,Q107287773,other,,false,more than a library consort ; its national
+SLUB Dresden,,DE,03wf51b65,Q323270,"archive, funder",,false,too small
+Statewide California Electronic Library Consortium,,US,04zp06k22,Q30289538,archive,,lib_consort,
+Technical University of Denmark,,DK,04qtj9h94,Q1269766,"education, funder",,false,too small
+University of California System,,US,00pjdza24,Q184478,"education, funder",,false,it is a consortium of institution
+Virtual Library of Virginia,,US,021gxf250,Q7934991,other,,lib_consort,
+Vlaamse Interuniversitaire Raad,,BE,00q3h2974,,"education, funder",,false,more than a library consort
+Austrian Science Fund,FWF,AT,013tf3c58,,,national funding organisation,funder,
+Fund for Scientific Research,FNRS,BE,03q83t159,,,national funding organisation,funder,
+Research Foundation Flanders,FWO,BE,03qtxy027,,,national funding organisation,funder,
+Croatian Science Foundation,HRZZ,HR,03n51vw80,,,national funding organisation,funder,
+Czech Science Foundation,GAČR,CZ,01pv73b02,,,national funding organisation,funder,
+UK Research and Innovation,UKRI,GB,001aqnf71,,,national funding organisation,funder,
+Hungarian Academy of Sciences,MTA,HU,02ks8qq67,,,national funding organisation,funder,
+Dutch Research Council,NWO,NL,04jsz6e67,,,national funding organisation,funder,
+European Research Council,ERC,EU,0472cxd90,,,european funding organisation,funder,
+European Commission,EC,EU,00k4n6c32,,,european funding organisation,funder,
+Swedish Research Council,VR,SE,03zttf063,,,national funding organisation,funder,
+Swiss National Science Foundation,SNSF,CH,00yjd3n13,,,national funding organisation,funder,
+Andrew W. Mellon Foundation,Mellon Foundation,US,04jsh2530,,,non-public funding organisation,funder,
+Norwegian Directorate for Higher Education and Skills,,NO,,Q105296275,,government funding organisation,funder,
+French National Fund for Open Science,,FR,,Q132450832,,government funding organisation,funder,
+Ministry of Higher Education and Research and Space,MESRE,FR,03sjk9a61,,,government funding organisation,funder,
+Danish Agency for Science and Higher Education,,DK,02sptwz63,,,government funding organisation,funder,
+Flemish Government,,BE,04qxsrb28,,,government funding organisation,funder,
+Foundation for Science and Technology ,FCT,PT,00snfqn58,,,government funding organisation,funder,
+Agence Nationale de la Recherche,ANR,FR,00rbzpz17,,,national funding organisation,funder,
+Gates Foundation,,US,0456r8d26,,,non-public funding organisation,funder,
