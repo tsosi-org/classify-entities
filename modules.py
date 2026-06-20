@@ -24,7 +24,7 @@ def df_to_custom_markdown(df, out_format):
     if out_format != "md" : 
         pass
 
-    lines = []
+    one_bloc = []
     for _, row in df.iterrows():
         name = row.get("name", "")
         country = row.get("country", "")
@@ -34,7 +34,7 @@ def df_to_custom_markdown(df, out_format):
         tsosi_link = row.get("tsosi_link", None)
 
         # First line: bold name and country in parentheses
-        first = f"**{name}** ({country})" if country and not pd.isna(country) else f"**{name}**\n"
+        first = f"**{name}** ({country})" if country and not pd.isna(country) else f"**{name}**"
         entry_lines = [first]
 
         # Optional lines if present and not NaN/empty
@@ -44,20 +44,20 @@ def df_to_custom_markdown(df, out_format):
             # entry_lines.append(f"[{ror_url}]({ror_url})\n")
         
         if wiki is not None and not (pd.isna(wiki) or str(wiki).strip() == ""):
-            entry_lines.append(str(wiki)+ '\n')
+            entry_lines.append(str(wiki))
         
         if ror_types :
             ror_types_str = str(",".join(ror_types))
-            entry_lines.append(ror_types_str + '\n')
+            entry_lines.append(ror_types_str )
 
         if tsosi_link is not None and not (pd.isna(tsosi_link) or str(tsosi_link).strip() == ""):
             url = str(tsosi_link).strip()
             # make link clickable
-            entry_lines.append(f"[{url}]({url})")
+            entry_lines.append(url) # f"[{url}]({url})")
 
-        lines.append("\n".join(entry_lines))
+        one_bloc.append("<br />\n".join(entry_lines))
 
-    return "\n\n\n\n".join(lines)
+    return "\n\n\n".join(one_bloc)
 
 
 
