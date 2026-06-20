@@ -57,7 +57,7 @@ def df_to_custom_markdown(df, out_format):
 
         one_bloc.append("<br />\n".join(entry_lines))
 
-    return "\n\n\n\n".join(one_bloc)
+    return "<br /><br />\n\n".join(one_bloc)
 
 
 
