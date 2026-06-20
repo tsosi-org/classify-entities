@@ -34,20 +34,21 @@ def df_to_custom_markdown(df, out_format):
         tsosi_link = row.get("tsosi_link", None)
 
         # First line: bold name and country in parentheses
-        first = f"**{name}** ({country})" if country and not pd.isna(country) else f"**{name}**"
+        first = f"**{name}** ({country})" if country and not pd.isna(country) else f"**{name}**\n"
         entry_lines = [first]
 
         # Optional lines if present and not NaN/empty
         if ror is not None and not (pd.isna(ror) or str(ror).strip() == ""):
             ror_url = str("https://ror.org/" + ror)
-            entry_lines.append(f"[{ror_url}]({ror_url})")
+            # entry_lines.append(ror_url)
+            entry_lines.append(f"[{ror_url}]({ror_url})\n")
         
         if wiki is not None and not (pd.isna(wiki) or str(wiki).strip() == ""):
-            entry_lines.append(str(wiki))
+            entry_lines.append(str(wiki)+ '\n')
         
         if ror_types :
             ror_types_str = str(",".join(ror_types))
-            entry_lines.append(ror_types_str)
+            entry_lines.append(ror_types_str + '\n')
 
         if tsosi_link is not None and not (pd.isna(tsosi_link) or str(tsosi_link).strip() == ""):
             url = str(tsosi_link).strip()
@@ -56,7 +57,7 @@ def df_to_custom_markdown(df, out_format):
 
         lines.append("\n".join(entry_lines))
 
-    return "\n\n".join(lines)
+    return "\n\n\n\n".join(lines)
 
 
 
