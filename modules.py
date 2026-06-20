@@ -40,8 +40,8 @@ def df_to_custom_markdown(df, out_format):
         # Optional lines if present and not NaN/empty
         if ror is not None and not (pd.isna(ror) or str(ror).strip() == ""):
             ror_url = str("https://ror.org/" + ror)
-            # entry_lines.append(ror_url)
-            entry_lines.append(f"[{ror_url}]({ror_url})\n")
+            entry_lines.append(ror_url)
+            # entry_lines.append(f"[{ror_url}]({ror_url})\n")
         
         if wiki is not None and not (pd.isna(wiki) or str(wiki).strip() == ""):
             entry_lines.append(str(wiki)+ '\n')
